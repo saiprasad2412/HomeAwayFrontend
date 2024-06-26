@@ -1,7 +1,9 @@
 @import "../../responsive.scss";
 .homePage{
     display: flex;
-    height: 100vh;
+    height:calc(100vh - 100px);
+    overflow-y: scroll;
+    scroll-behavior: smooth;
 
     .textContainer{
         flex:3;
